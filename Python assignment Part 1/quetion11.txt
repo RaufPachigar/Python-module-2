@@ -1,0 +1,27 @@
+que :- What are negative indexes and why are they used?
+
+
+What is Negative Indexing? 
+Indexing is a way of accessing individual items or elements of a sequence by their position or order within the sequence. For example, if you have a list of numbers, you can use indexing to get the first, second, third, or any other element of the list.
+
+In Python, indexing starts from zero, which means that the first element of a sequence has an index of 0, the second element has an index of 1, and so on.
+
+How Does Negative Indexing Work? 
+
+You might be wondering how Python knows which element to return when you use a negative index. How does it translate a negative number into a position within a sequence?
+
+The answer is simple: Python adds the length of the sequence to the negative index to get the corresponding positive index. For example, if you have a list with four elements and you use an index of -1, Python will add 4 (the length of the list) to -1 (the index) and get 3 (the positive index). Then it will return the element at position 3 in the list.
+
+In general, if you have a sequence with n elements and you use an index of -i (where i is a positive integer), Python will add n (the length of the sequence) to -i (the index) and get n-i (the positive index). Then it will return the element at position n-i in the sequence.
+
+Here is a diagram that illustrates this process:
+
+Negative Indexing Diagram
+As you can see, negative indexing is a convenient way of accessing elements from the end of a sequence without having to calculate their positive indexes.
+
+How to Use Negative Indexing in Python? 
+You can use negative indexing in Python with any sequence type, such as lists, strings, tuples, or ranges. You can also use negative indexing with slicing, which is a way of getting a subsequence or a part of a sequence.
+
+Here are some examples and use cases of negative indexing in Python:
+
+Getting the last element of a sequence. You can use an index of -1 to get the last element of any sequence.
